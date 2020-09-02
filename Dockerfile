@@ -1,4 +1,4 @@
-FROM php:7.3.11-fpm
+FROM php:7.4-fpm
 # https://github.com/docker-library/docs/blob/master/php/README.md#supported-tags-and-respective-dockerfile-links
 RUN apt-get update && apt-get install -y libzip-dev libmcrypt-dev libpng-dev libfreetype6-dev libjpeg62-turbo-dev gnupg git zip unzip \
     default-mysql-client libmagickwand-dev --no-install-recommends \
